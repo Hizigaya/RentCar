@@ -11,8 +11,8 @@ class DefaultController extends Controller
         return $this->render('EpopeeBundle:Default:index.html.twig');
     }
 
-    public function bookAction($book)
+    public function autoAction($auto)
     {
-        return $this->render('EpopeeBundle:Book:k'.$book.'.html.twig', array('book'=>$book));
+        return $this->render('EpopeeBundle:Auto:k'.$auto.'.html.twig', array('auto'=>$auto));
     }
 }
