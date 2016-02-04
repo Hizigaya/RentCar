@@ -1,0 +1,37 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+		<title>Wypożyczalnia</title>
+	</head>	
+	<body>
+		<header class="page-header">
+			<div class="container text-center">
+				<h1>Wypożyczalnia samochodów PANIDACZY</h1>
+			</div>
+		</header>
+		<div class="container blocks_space" id="menu">
+			<div class="row">
+				{% block menu %}
+					<p>tu będzie menu</p>
+				{% endblock %}
+			</div>
+		</div>
+		<div class="container blocks_space">
+				<div id="content" class="col-sm-12 col-lg-12">
+					{% block content %}
+						<p>tu jest treść strony</p>
+					{% endblock %}
+			</div>
+		</div>
+		<footer>
+			<div class="container">
+				
+			</div>
+		</footer>
+	</body>	
+</html>

@@ -1,0 +1,46 @@
+{% extends "EpopeeBundle::bars.html.twig" %}
+{% block content %}
+  <h1>Volkswagen UP</h1>
+  <h2> Hatchback, benzyna</h2>
+  <h3>SZCZEGÓŁY:</h3>
+  <div>
+  Ilość miejsc: 2-5<br>
+  Skrzynia biegów: manualna<br>
+  Klimatyzacja: tak<br>
+  Drzwi: 4/5<br>
+  Paliwo: PB 95<br>
+  <br>
+Volkswagen UP - mały samochód z wielką przestrzenią,
+5-drzwiowy, idealny do miasta i nie tylko, dzięki ekonomicznemu
+silnikowi spalanie samochodu to jedynie 4,5 litra/100 km.  
+  </div>
+<h3>ZDJĘCIE:</h3>
+<img src="http://ddpartner.com.pl/images/cars/volkswagen-up.jpg" alt="Chevrolet Spark">
+<br>
+Cennik
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Okres wypożyczenia w dniach</th>
+      <th>1-3</th>
+      <th>4-7</th>
+	  <th>8-15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cena w PLN</td>
+      <td>109</td>
+      <td>89</td>
+	  <td>69</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<body>
+<input type="button" class="btn btn-warning" value="Wypożycz" onclick="alert('Aktualnie trwa przerwa techniczna, za utrudnienia przepraszamy!');">
+</body>
+<a class="btn btn-danger" href="/~s174328/dostepnosc.html">Sprawdź dostępność samochodu</a>
+{% endblock %} 

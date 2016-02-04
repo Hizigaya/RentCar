@@ -1,0 +1,46 @@
+{% extends "EpopeeBundle::bars.html.twig" %}
+{% block content %}
+<h1>Renault Captur</h1>
+  <h2>SUV, diesel</h2>
+  <h3>SZCZEGÓŁY:</h3>
+  <div>
+  Ilość miejsc: 2-5<br>
+  Skrzynia biegów: manualna<br>
+  Klimatyzacja: tak<br>
+  Drzwi: 4/5<br>
+  Paliwo: Diesel<br>
+  <br>
+Renault Captur to wygodne, praktyczne auto, które
+sprawdzi się w trasie i w mieście, wyróżnia się dynamicznym
+i bezpiecznym układowi jezdnemu. 
+  </div>
+<h3>ZDJĘCIE:</h3>
+<img src="http://ddpartner.com.pl/images/cars/renault-captur.jpg" alt="Chevrolet Spark">
+<br>
+Cennik
+
+<table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Okres wypożyczenia w dniach</th>
+      <th>1-3</th>
+      <th>4-7</th>
+	  <th>8-15</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Cena w PLN</td>
+      <td>119</td>
+      <td>99</td>
+	  <td>79</td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+<body>
+<input type="button" class="btn btn-warning" value="Wypożycz" onclick="alert('Aktualnie trwa przerwa techniczna, za utrudnienia przepraszamy!');">
+</body>
+<a class="btn btn-danger" href="/~s174328/dostepnosc.html">Sprawdź dostępność samochodu</a>
+{% endblock %} 
